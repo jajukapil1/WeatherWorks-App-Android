@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_map"
+        android:icon="@drawable/ic_map"
+        android:title="@string/title_map" />
+
+    <item
+        android:id="@+id/navigation_cst"
+        android:icon="@drawable/ic_cst"
+        android:title="@string/title_cst" />
+
+    <item
+        android:id="@+id/navigation_forecast"
+        android:icon="@drawable/ic_forecast"
+        android:title="@string/title_forecast" />
+    <item
+        android:id="@+id/navigation_spotter"
+        android:icon="@drawable/ic_spotter_1"
+        android:title="@string/title_spotter" />
+    <item
+        android:id="@+id/navigation_help"
+        android:icon="@drawable/ic_help"
+        android:title="@string/title_help" />
+
+</menu>

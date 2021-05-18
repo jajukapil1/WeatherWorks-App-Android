@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Weather Work</string>
+    <string name="title_map">Map</string>
+    <string name="title_cst">CST</string>
+    <string name="title_forecast">Forecast</string>
+    <string name="title_spotter">Spotter</string>
+    <string name="title_help">Help</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyA3kpH3nZFP5elbTY-xhHFF9XeD60zpeeg</string>
+</resources>

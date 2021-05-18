@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_map">
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.example.weatherwork.ui.map.MapFragment"
+        android:label="@string/title_map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/navigation_cst"
+        android:name="com.example.weatherwork.ui.cst.CSTFragment"
+        android:label="@string/title_cst"
+        tools:layout="@layout/fragment_cst" />
+
+    <fragment
+        android:id="@+id/navigation_forecast"
+        android:name="com.example.weatherwork.ui.forecast.ForecastFragment"
+        android:label="@string/title_forecast"
+        tools:layout="@layout/fragment_forecast" />
+    <fragment
+        android:id="@+id/navigation_spotter"
+        android:name="com.example.weatherwork.ui.spotter.SpotterFragment"
+        android:label="@string/title_spotter"
+        tools:layout="@layout/fragment_forecast" />
+    <fragment
+        android:id="@+id/navigation_help"
+        android:name="com.example.weatherwork.ui.help.HelpFragment"
+        android:label="@string/title_help"
+        tools:layout="@layout/fragment_forecast" />
+</navigation>
