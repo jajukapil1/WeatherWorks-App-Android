@@ -37,7 +37,7 @@ import com.google.android.gms.maps.model.MarkerOptions
 class MapFragment : Fragment(), OnMapReadyCallback,
     GoogleApiClient.ConnectionCallbacks,
     GoogleApiClient.OnConnectionFailedListener,LocationListener {
-
+//
     private lateinit var mMap: GoogleMap
     private lateinit var mapViewModel: MapViewModel
     private var locationManager: LocationManager? = null
